@@ -1,0 +1,30 @@
+
+section#about {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: -moz-linear-gradient(left,  rgba(244,242,250,1) 0%, rgba(244,242,250,1) 1%, rgba(234,241,254,1) 56%, rgba(234,241,254,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(244,242,250,1) 0%,rgba(244,242,250,1) 1%,rgba(234,241,254,1) 56%,rgba(234,241,254,1) 100%);
+    background: linear-gradient(to right,  rgba(244,242,250,1) 0%,rgba(244,242,250,1) 1%,rgba(234,241,254,1) 56%,rgba(234,241,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f2fa', endColorstr='#eaf1fe',GradientType=1 );
+}
+
+#about .col-md-8 {
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    border-radius: 50%;
+    background: #ddd;
+    margin: 0;
+    max-height: 240px;
+    box-shadow: 6px 10px 25px #ddd;
+}
+
+#about .avatar {
+    /* text-align: center; */
+}
+
+
