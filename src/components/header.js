@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             <div>
                 <Nav.Item as={Link} to="/">Home</Nav.Item>
                 <Nav.Item as={Link} to="/#about">About</Nav.Item>
-                <Nav.Item as={Link} to="/#project">Project</Nav.Item>
+                <Nav.Item as={Link} to="/project">Project</Nav.Item>
                 <Nav.Item as={Link} to="/#skills">Skills</Nav.Item>
                 <Nav.Item as={Link} to="/#blog">Blog</Nav.Item>
                 <Nav.Item as={Link} to="/#contact">Contact</Nav.Item>
